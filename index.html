@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from suedwestphoto.de/iracing/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Jan 2021 17:54:51 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>iRacing Calculator</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="robots" content="noindex,nofollow">
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://suedwestphoto.de/iracing/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://suedwestphoto.de/iracing/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://suedwestphoto.de/iracing/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://suedwestphoto.de/iracing/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="http://suedwestphoto.de/iracing/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://suedwestphoto.de/iracing/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://suedwestphoto.de/iracing/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://suedwestphoto.de/iracing/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="http://suedwestphoto.de/iracing/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="http://suedwestphoto.de/iracing/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="http://suedwestphoto.de/iracing/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="http://suedwestphoto.de/iracing/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="http://suedwestphoto.de/iracing/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="&nbsp;"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="http://suedwestphoto.de/iracing/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="http://suedwestphoto.de/iracing/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="http://suedwestphoto.de/iracing/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="http://suedwestphoto.de/iracing/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="http://suedwestphoto.de/iracing/mstile-310x310.png" />
+
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:900" rel="stylesheet">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="http://suedwestphoto.de/iracing/opt/skeleton/css/normalize.css">
+  <link rel="stylesheet" href="http://suedwestphoto.de/iracing/opt/skeleton/css/skeleton.css">
+  <link rel="stylesheet" href="http://suedwestphoto.de/iracing/lib/css/content.css">
+
+  <!-- Javascript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://suedwestphoto.de/iracing/lib/js/calculator.js"></script>
+  <script type="text/javascript" src="http://suedwestphoto.de/iracing/lib/js/fov.js"></script>
+  <script type="text/javascript" src="http://suedwestphoto.de/iracing/lib/js/units.js"></script>
+</head>
+<body>
+<div class="container">
+  <!--
+  Header
+-->
+<div class="row header">
+  <div class="four columns">&nbsp;</div>
+  <div class="four columns">
+    <img class="u-max-full-width" src="http://suedwestphoto.de/iracing/lib/images/logo.png" alt="iRacing Calculator" title="iRacing Calculator" />
+  </div>
+  <div class="four columns">&nbsp;</div>
+</div>
+  <!--
+  Personal info
+-->
+<div class="row laptime">
+  <div class="twelve columns">
+    <h3>General Information</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="twelve columns">
+    <h5>Laptime</h5>
+  </div>
+</div>
+<div class="row">
+  <div class="four columns">
+    <label for="minutes">Minutes</label>
+    <input class="u-full-width" id="minutes" type="number">
+  </div>
+  <div class="four columns">
+    <label for="seconds">Seconds</label>
+    <input class="u-full-width" id="seconds" type="number">
+  </div>
+  <div class="four columns">
+    <label for="milliseconds">Milliseconds</label>
+    <input class="u-full-width" id="milliseconds" type="number">
+  </div>
+</div>
+<div class="row duration">
+  <div class="twelve columns">
+    <h5>Race length and fuel</h5>
+  </div>
+</div>
+<div class="row">
+  <div class="four columns">
+    <label for="raceDuration">Race length in minutes</label>
+    <input class="u-full-width" id="raceDuration" type="number">
+  </div>
+  <div class="four columns">
+    <label for="raceLaps">Race length in laps</label>
+    <input class="u-full-width" id="raceLaps" type="number">
+  </div>
+  <div class="four columns">
+    <label for="fuel">Fuel consuption per lap</label>
+    <input class="u-full-width" id="fuel" type="number">
+  </div>
+</div>
+<div class="row calculate">
+  <div class="six columns">
+    <a><button id="doCalculation" class="u-full-width button-primary">Calculate</button></a>
+  </div>
+  <div class="six columns">
+    <a><button id="resetInputs" class="u-full-width button-primary reset">Reset inputs</button></a>
+  </div>
+</div>
+  <!--
+  Results
+-->
+<div class="row resultsTitle">
+  <div class="twelve columns">
+    <h3>Results</h3>
+  </div>
+</div>
+<div class="row ">
+  <div class="four columns">
+    <label for="neededFuel">Fuel needed</label>
+    <input class="u-full-width" id="neededFuel" type="text" readonly>
+  </div>
+  <div class="four columns">
+    <label for="timeRace">Est. race duration</label>
+    <input class="u-full-width" id="timeRace" type="text" readonly>
+  </div>
+  <div class="four columns">
+    <label for="lapsRace">Est. race laps</label>
+    <input class="u-full-width" id="lapsRace" type="text" readonly>
+  </div>
+</div>
+<div class="row resultReset">
+  <div class="six columns">
+    &nbsp;
+  </div>
+  <div class="six columns">
+    <a><button id="resetResults" class="u-full-width button-primary reset">Reset results</button></a>
+  </div>
+</div>
+<div class="row secondBorder">
+  <div class="twelve columns">
+    &nbsp;
+  </div>
+</div>
+  
+</html>
